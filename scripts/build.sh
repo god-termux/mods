@@ -15,6 +15,7 @@ rm -rf "$SITE"; mkdir -p "$SITE/mods"
 # интерфейс Mod из APK god-termux: только для компиляции
 mkdir -p "$WORK/stubs"; javac --release 8 -cp "$JAR" -d "$WORK/stubs" "$ROOT/stubs/com/termux/mod/Mod.java" 2>/dev/null
 
+shopt -s nullglob
 for dir in "$ROOT"/mods/*/; do
   name=$(basename "$dir"); stage=$WORK/pkg-$name; mkdir -p "$stage"
   cp "$dir/mod.json" "$stage/"

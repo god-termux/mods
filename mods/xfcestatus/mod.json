@@ -1,1 +1,0 @@
-{"name":"xfcestatus","version":1,"main":"xfcestatus.XfceStatus","title":"xfce-wl: индикаторы панели","description":"Следит за сессией xfce-wl (сокет wayland-1) и держит запущенным xfce-status, который кормит панель зарядом, Wi-Fi, RAM и нагрузкой","icon":"📊"}

@@ -1,1 +1,0 @@
-{"name":"dsuset","version":1,"main":"dsuset.DsuSet","title":"dsu: автовключение отладки","description":"Приёмник dsu.ADB_WIFI: включает/выключает Беспроводную отладку через Settings.Global (нужен WRITE_SECURE_SETTINGS)","icon":"🔌"}
